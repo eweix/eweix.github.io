@@ -1,0 +1,67 @@
+theme = "awesome-identity"
+baseURL = "https://eweix.github.io"
+title = "Elliott Weix"
+
+## Navigation
+[params.navigation]
+[params.navigation.a]
+  name = "Home"
+  url = "/"
+[params.navigation.b]
+  name = "/now"
+  url = "/now"
+[params.navigation.c]
+  name = "/projects"
+  url = "/projects"
+[params.navigation.d]
+  name = "/drafts"
+  url = "/drafts"
+
+## Profile Configurations
+[params.profile]
+  portrait = "/images/portrait-default.png"
+  firstname = "Elliott"
+  lastname = "Weix"
+  title = "Student / Researcher"
+  bio = """Elliott Weix is a student studying biochemistry and mathematics. They do [synthetic biology](https://www.genome.gov/about-genomics/policy-issues/Synthetic-Biology) research in the [Coyle Lab](https://www.coylelab.org/), primarily on [reaction-diffusion systems](https://en.wikipedia.org/wiki/Reaction%E2%80%93diffusion_system).
+
+  In their spare time, Elliott plays the contrabass, geeks out over languages, messes around with computers, and reads lots of books.
+  """
+
+## Contacts Configurations
+[params.contacts]
+  email = "elliottweix@gmail.com"
+  github = "eweix"
+  linkedin = "eweix"
+
+## Actions
+[params.actions]
+  [params.actions.CV]
+    name = "Review My CV"
+    url = ""
+  [params.actions.AMA]
+    name = "Ask Me Anything"
+    url = ""
+  [params.actions.coffee]
+    name = "Buy Me a Coffee"
+    url = ""
+
+## Links
+[params.links]
+  [params.links.now]
+    name = "/now"
+    url = "/now"
+    description = "A list of what I'm involved with right now. Expect me to use this as an excuse regularly. Inspired by the [/now page by Derek Sivers](https://sive.rs/nowff)."
+  [params.links.wiki]
+    name = "Drafts"
+    url = "/wiki"
+    description = "A collection of notes, poetry, and other writing about my interests. Not for professional or academic use. Perpetually in revisions."
+  [params.links.projects]
+    name = "Projects"
+    url = "/projects"
+    description = "A list of my past projects and work."
+
+## Footer Configurations
+[params.footer]
+  copyright = "© 2023 Elliott Weix. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  poweredBy = false

@@ -1,0 +1,6 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ range .Pages }}
+      <ul><a href="{{ .Permalink }}" target="_blank"></a>{{ .Title }}</ul>
+  {{ end }}
+{{ end }}
