@@ -48,18 +48,18 @@ title = "Elliott Weix"
 
 ## Links
 [params.links]
-  [params.links.now]
+  [params.links.a]
     name = "/now"
     url = "/now"
     description = "A list of what I'm involved with right now. Expect me to use this as an excuse regularly. Inspired by the [/now page by Derek Sivers](https://sive.rs/nowff)."
-  [params.links.wiki]
-    name = "Drafts"
-    url = "/wiki"
-    description = "A collection of notes, poetry, and other writing about my interests. Not for professional or academic use. Perpetually in revisions."
-  [params.links.projects]
+  [params.links.b]
     name = "Projects"
     url = "/projects"
     description = "A list of my past projects and work."
+  [params.links.c]
+    name = "Drafts"
+    url = "/drafts"
+    description = "A collection of notes, poetry, and other writing about my interests. Not for professional or academic use. Perpetually in revisions."
 
 ## Footer Configurations
 [params.footer]
