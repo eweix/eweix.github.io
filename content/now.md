@@ -1,5 +1,6 @@
 ---
 title: "/now"
+date: 2023-08-14
 ---
 A list of the things I'm focused on or involved - *now*. Expect me to use this as an excuse regularly. Inspired by the [/now page by Derek Sivers](https://sive.rs/nowff).
 

@@ -1,7 +1,7 @@
 {{ with .Site.Params.links -}}
-<section class="actions">
+<section class="navigation">
       {{ range . }}
-      <a class="action" href="{{ .Site.BaseURL }}{{ .url }}">{{ .name }}</a> 
+      <a class="nav-link" href="{{ .Site.BaseURL }}{{ .url }}">{{ .name }}</a> 
       {{ end }}
 </section>
 {{- end }}
