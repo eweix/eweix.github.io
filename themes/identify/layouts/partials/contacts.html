@@ -1,0 +1,47 @@
+{{ with .Site.Params.contacts -}}
+<section class="contacts">
+  {{- range $service, $id := . -}}
+    {{- if (eq $service "github") }}
+  <a class="contact" href="https://github.com/{{ $id }}" target="_blank">
+    <image src="/images/github.svg" height=24 aria-hidden="true"></image>
+  </a>
+    {{- else if (eq $service "linkedin") }}
+  <a class="contact" href="https://linkedin.com/in/{{ $id }}" target="_blank">
+    <image src="/images/linkedin.svg" height="24" aria-hidden="true"></image>
+  </a>
+    {{- else if (eq $service "instagram") }}
+  <a class="contact" href="https://instagram.com/{{ $id }}" target="_blank">
+    <image src="/images/instagram.svg" aria-hidden="true"></image>
+  </a>
+  {{-  else if (eq $service "mastodon") }}
+  <a class="contact" href="https://" target="_blank">
+    <image src="/images/mastodon.svg" height=24 aria-hidden="true"></image>
+  </a>
+    {{- else if (eq $service "stackoverflow") }}
+  <a class="contact" href="https://stackoverflow.com/users/{{ $id }}" target="_blank">
+    <image src="/images/stackoverflow.svg" height=24 aria-hidden="true"></image>
+  </a>
+    {{- else if (eq $service "email") }}
+  <a class="contact" href="mailto:{{ $id }}" target="_blank">
+    <image src="/images/envelope-at-fill.svg" height=24 aria-hidden="true"></image>
+  </a>
+    {{- else if (eq $service "gitlab") }}
+  <a class="contact" href="https://gitlab.com/{{ $id }}" target="_blank">
+    <image src="/images/gitlab.svg" height=24 aria-hidden="true"></image>
+  </a>
+    {{- else if (eq $service "devto") }}
+  <a class="contact" href="https://dev.to/{{ $id }}" target="_blank">
+    <image src="/images/devto.svg" height=24 aria-hidden="true"></image>
+  </a>
+    {{- else if (eq $service "hackerrank") }}
+  <a class="contact" href="https://hackerrank.com/{{ $id }}" target="_blank">
+    <image src="/images/hackerrank.svg" height=24 aria-hidden="true"></image>
+  </a>
+  {{- else if (eq $service "bitbucket") }}
+  <a class="contact" href="https://bitbucket.org/{{ $id }}" target="_blank">
+    <image src="/images/bitbucket.svg" height=24 aria-hidden="true"></image>
+  </a>
+    {{- end }}
+  {{- end }}
+</section>
+{{- end }}

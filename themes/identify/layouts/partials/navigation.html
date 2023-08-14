@@ -1,0 +1,7 @@
+{{ with .Site.Params.navigation -}}
+<section class="navigation">
+    {{ range . }}
+      <a class="nav-link" href="{{ .Site.BaseURL }}{{ .url }}">{{ .name }}</a> 
+    {{ end }}
+</section>
+{{- end }}

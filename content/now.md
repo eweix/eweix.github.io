@@ -18,7 +18,7 @@ I took a literature class this past year, realized I'm largely unfamiliar with t
 I play the contrabass as a hobby, but I've been practicing a lot more lately for some auditions. Currently focusing on the Dragonetti Concerto. Also practicing excerpts from Dvorak and Tchaikovsky.
 
 ## Biking
-Okay, not as much of this as I would really like. But I've been getting out of the house more and biking on trails with friends, and I started trying to bike for a little while each morning. It's a great way to wake up and clear my mind.
+Okay, not as much of this as I would really like. But I've been getting out of the house more and biking on trails with friends, which has been a lot of fun.
 
 ## Learning Web Development
 I've made and remade this website by hand, with jekyll, with gatsby, with chisel, and with hugo. After fiddling around with it for a few weeks, I think I want to stick with hugo - it really is awesome for development.

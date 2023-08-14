@@ -1,0 +1,17 @@
+.navigation {
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+  
+    .nav-link {
+        position: relative;
+        display: inline-block;
+        margin: 0.5rem 0.5rem;
+        width: flex;
+        height: 2em;
+        line-height: 2em;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
