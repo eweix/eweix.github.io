@@ -5,8 +5,8 @@ date: 2023-08-14
 A list of the things I'm focused on or involved - *now*. Expect me to use this as an excuse regularly. Inspired by the [/now page by Derek Sivers](https://sive.rs/nowff).
 
 ## Undergraduate Studies
-I'm currently studying biochemistry and (hopefully) mathematics.
-I'm mostly focused on this.
+I'm currently studying biochemistry, with a side of math.
+Mostly focused on this right now, since school is important and fun.
 Taking classes on chemistry, linear algebra, and Spanish.
 
 ## Research
@@ -26,7 +26,7 @@ There's too many good things to read and never enough time.
 
 ## Music
 I play the contrabass as a hobby, but I've been practicing a lot more lately for some auditions.
-Currently focusing on the Dragonetti Concerto.
+Currently polishing up the Dragonetti Concerto.
 Also practicing excerpts from Dvorak and Tchaikovsky.
 
 ## Biking
