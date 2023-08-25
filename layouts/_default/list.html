@@ -1,6 +1,9 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ range .Pages }}
-      <ul><a href="{{ .Permalink }}" target="_blank"></a>{{ .Title }}</ul>
+    <h2>
+      <a href="{{ .Page.Params.link }}" target="_blank">{{ .Title }}</a>
+    </h2>
+    {{ .Content }}
   {{ end }}
 {{ end }}
